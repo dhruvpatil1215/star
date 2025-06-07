@@ -3,7 +3,7 @@ export default function handler(req, res) {
 
   const IPTV_BASE = "https://livetvbox.live:443/live/Gareth/Gareth123";
   const tsUrl = `${IPTV_BASE}/${id}.ts`;
-  const sequence = Math.floor(Date.now() / 10000); // simulate sequence number
+  const sequence = Math.floor(Date.now() / 10000); // to simulate sequence
 
   const playlist = `#EXTM3U
 #EXT-X-VERSION:3
