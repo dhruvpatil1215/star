@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "/Sz/(.*).m3u8",
+      "dest": "/api/Sz/$1.js"
+    }
+  ]
+}
